@@ -5,9 +5,9 @@
 """ARI client library
 """
 
-import client
+from ari import client
 import swaggerpy.http_client
-import urlparse
+import urllib.parse as urlparse
 
 Client = client.Client
 
